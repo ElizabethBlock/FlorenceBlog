@@ -1,0 +1,25 @@
+// :root {
+//    --c-red: 234, 72, 9;
+//    --c-bg: 239, 239, 239;
+// }
+
+body {
+   // background-color: var(--c-bg);
+   // color: var(--c-red);
+   color: #ea4809;
+   background-color: #EFEFEF;
+   font-family: "Roboto" , serif;
+   font-weight: 400;
+   font-size: 22px;
+}
+
+body {
+   margin: 0 auto;
+   box-sizing: border-box;
+}
+
+.container {
+   width: 1440px;
+   height: 800px;
+   background-color: #fff;
+}
