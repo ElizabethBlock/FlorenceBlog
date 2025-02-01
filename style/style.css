@@ -11,6 +11,10 @@ a {
    text-decoration: none;
 }
 
+li {
+   list-style: none;
+}
+
 .container {
    margin: 0 auto;
    width: 1016px;
@@ -106,7 +110,7 @@ a {
    width: 1016px;
    margin: 0 auto;
    padding-top: 340px;
-   padding-bottom: 100px;
+   padding-bottom: 280px;
 }
 
 .idea {
@@ -148,4 +152,121 @@ a {
    font-size: 22px;
    padding-left: 80px;
    margin: 10px 0;
+}
+
+.main__meet {
+   width: 1440px;
+   height: 269px;
+   margin: 0 auto;
+   padding-bottom: 250px;
+}
+
+.meet {
+   width: 775px;
+   display: flex;
+}
+
+.rotate-meet,
+.rorate-studioten {
+   transform: rotate(270deg);
+   font-size: 14px;
+   right: -190px;
+   position: relative;
+}
+
+.meet-text,
+.studioten-text {
+   font-size: 114px;
+   font-weight: 500;
+   margin: 0;
+   padding-left: 100px;
+}
+
+.studio__block {
+   margin: 0 auto;
+   /* width: 1500px; */
+   width: 1236px;
+   height: 700px;
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 185px;
+}
+
+.block-one {
+   width: 417px;
+   padding-left: 27px;
+}
+
+.block-two {
+   width: 618px;
+   padding-right: 27px;
+}
+
+.text-block {
+   margin: 30px 0 0 0;
+}
+
+.text-block-t {
+   margin: 0;
+}
+
+.studio-text {
+   margin: 5px 0 150px 0;
+   font-weight: 300;
+   font-size: 22px;
+}
+
+.social-media {
+   margin: 0 auto;
+   width: 1500px;
+   height: 250px;
+   padding-bottom: 190px;
+}
+
+.social__block {
+   display: flex;
+   justify-content: space-between;
+}
+
+.link-item {
+   padding-bottom: 21px;
+}
+
+.social-link {
+   color: #ea4809;
+   font-size: 22px;
+}
+
+.social-text {
+   width: 630px;
+}
+
+.text-social {
+   font-weight: 300;
+   font-size: 23px;
+   margin: 0;
+   letter-spacing: 1px;
+   line-height: 33px;
+}
+
+.js__photo {
+   margin: 0 auto;
+   width: 1500px;
+   height: 900px;
+   background-color: #fff;
+   margin-bottom: 250px;
+}
+
+.studioten {
+   width: 1440px;
+   margin: 0 auto;
+   padding-bottom: 250px;
+}
+
+.studioten__block {
+   display: flex;
+}
+
+.studioten-text {
+   width: 544px;
 }
