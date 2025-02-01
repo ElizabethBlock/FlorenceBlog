@@ -1,4 +1,4 @@
-body {
+body, html {
    color: #ea4809;
    background-color: #EFEFEF;
    font-family: "Roboto", serif;
@@ -17,7 +17,7 @@ li {
 
 .container {
    margin: 0 auto;
-   width: 1016px;
+   max-width: 1440px;
 }
 
 .container__header {
@@ -310,4 +310,43 @@ li {
 
 .img__studio {
    height: 80px;
+}
+
+.footer__container {
+   background-color: #EA4809;
+   height: 910px;
+}
+
+.block__footer {
+   display: flex;
+   flex-direction: column;
+   padding-top: 270px;
+   width: 1500px;
+   margin: 0 auto;
+}
+
+.footer-text {
+   width: 625px;
+   color: #fff;
+   margin: 0;
+   font-size: 85px;
+   font-weight: 300;
+}
+
+.a__email {
+   padding-top: 80px;
+   color: #fff;
+   text-decoration: underline;
+   font-size: 30px;
+}
+
+.end__footer {
+   display: flex;
+   width: 1500px;
+   margin: 0 auto;
+   padding-top: 150px;
+}
+
+.end__footer-text {
+   color: #FF917E;
 }
