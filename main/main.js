@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
    const text = document.querySelector('.marquee-text');
    
-   if (!text) return; // Якщо елемент не знайдено, не виконуємо код
+   if (!text) return;
 
    let position = window.innerWidth; // Початкова позиція
-   let speed = 10;
+   let speed = 5;
 
    function moveText() {
-       position -= speed; // Рух вліво
+       position -= speed;
        if (position < -text.offsetWidth) {
            position = window.innerWidth;
        }
