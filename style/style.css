@@ -8,11 +8,10 @@ html {
    background-color: #E4E4E4;
    font-family: "Roboto", serif;
    font-weight: 300;
-   margin: 0 auto;
    box-sizing: border-box;
    width: 100%;
-   max-width: 1440px;
-   overflow-x: hidden;
+   padding: 0;
+   margin: 0;
 }
 
 a {
@@ -21,6 +20,11 @@ a {
 
 li {
    list-style: none;
+}
+
+header {
+   max-width: 1440px;
+   margin: 0 auto;
 }
 
 .container__header {
@@ -103,6 +107,11 @@ li {
 .other-text {
    font-size: 37px;
    font-weight: 300;
+}
+
+main {
+   max-width: 1440px;
+   margin: 0 auto;
 }
 
 .container__main {
@@ -298,6 +307,7 @@ li {
    justify-content: center;
    align-items: center;
    height: 220px;
+   width: 100vw;
    overflow: hidden;
    position: relative;
    background: #F2D1F3;
@@ -319,13 +329,15 @@ li {
    margin: 0 auto;
    background-color: #EA4809;
    height: 910px;
+   width: 100vw;
 }
 
 .block__footer {
    display: flex;
    flex-direction: column;
-   padding-top: 270px;
-   width: 1236px;
+   padding-top: 5%;
+   width: 80%;
+   max-width: 1236px;
    margin: 0 auto;
 }
 
@@ -431,7 +443,6 @@ li {
 
 }
 
-
 @media (max-width: 530px) {
 
    .header__nav {
@@ -464,7 +475,6 @@ li {
    }
 
 }
-
 
 @media (max-width: 480px) {
 
