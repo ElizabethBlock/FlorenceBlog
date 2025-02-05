@@ -1,3 +1,15 @@
+* {
+   /* border: red solid 1px; */
+}
+
+a {
+   text-decoration: none;
+}
+
+li {
+   list-style: none;
+}
+
 body,
 html {
    color: #ea4809;
@@ -9,19 +21,6 @@ html {
    margin: 0 auto;
    width: 1440px;
 }
-
-a {
-   text-decoration: none;
-}
-
-li {
-   list-style: none;
-}
-
-/* header, main {
-   max-width: 1440px;
-   margin: 0 auto;
-} */
 
 .container__header {
    margin: 0 auto 100px;
