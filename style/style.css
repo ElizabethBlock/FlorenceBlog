@@ -746,3 +746,135 @@ html {
       padding-left: 110px;
       padding-top: 40px;   }
 }
+
+@media (max-width: 360px) {
+
+.header__nav {
+   height: 400px;
+   justify-content: center;
+}
+
+.header__img {
+   margin-right: 665px;
+
+}
+
+.header__blog {
+   margin-left: 645px;
+   margin-top: -225px;
+}
+
+.a__play {
+   margin-top: -380px;
+   margin-left: 60px;
+}
+
+.studio__text {
+   font-size: 110px;
+}
+
+.logo__i {
+   height: 100px;
+   width: 700px;
+}
+
+.main__our {
+   padding-top: 300px;
+}
+
+.idea, .who {
+   width: 1000px;
+   height: 664px;
+}
+
+.idea {
+   padding-bottom: 70px;
+}
+
+.who {
+text-align: center;
+}
+
+.question, .respond {
+   padding-left: 0;
+}
+
+.question {
+   font-size: 57px;
+   margin-top: 50px;
+}
+
+.respond {
+   font-size: 40px;
+   margin-top: 4px;
+}
+
+.text {
+   width: 100%;
+   font-size: 40px;
+}
+
+.meet, .mutt__block {
+   padding-left: 101px;
+}
+
+.meet-text, .mutt-text {
+   font-size: 101px;
+}
+
+.rotate-meet, .rorate-mutt {
+   height: 16px;
+   font-size: 16px;
+}
+
+.studio__block, .studioten__block {
+   padding-top: 200px;
+   flex-direction: column;
+   align-items: center;
+}
+
+.block-one, .block-three {
+   display: flex;
+   justify-content: space-evenly;
+   width: 100%;
+   margin-right: 0;
+}
+
+.block-two, .block-four {
+   display: flex;
+   width: 100%;
+   margin-top: 100px;
+}
+
+.text-block {
+   padding-left: 100px;
+   margin-top: 20px;
+   font-size: 45px;
+}
+
+.text-block-t {
+margin-top: 100px;
+font-size: 40px;
+}
+
+.two {
+   padding: 0;
+   font-size: 24px;
+}
+
+.studio-text {
+margin: 275px 0 0 0;
+}
+
+.social__block {
+   margin-top: 155px;
+}
+
+.social-media {
+   height: 330px;
+}
+
+.js__photo, .js__photo-two {
+   margin: 90px 0;
+}
+}
