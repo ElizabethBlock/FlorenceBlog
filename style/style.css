@@ -1,6 +1,6 @@
-* {
-   /* border: red solid 1px; */
-}
+/* * {
+   border: red solid 1px;
+} */
 
 a {
    text-decoration: none;
@@ -135,7 +135,7 @@ html {
 }
 
 .who {
-   background-color: #fff;
+   background-color: #ffffffb3;
    width: 423px;
    height: 606px;
 }
@@ -297,7 +297,6 @@ html {
    justify-content: center;
    align-items: center;
    height: 220px;
-   /* width: 100%; */
    overflow: hidden;
    position: relative;
    background: #F2D1F3;
@@ -313,10 +312,6 @@ html {
 
 .img__studio {
    height: 80px;
-}
-
-footer {
-   /* width: 100vw; */
 }
 
 .footer__container {
@@ -360,11 +355,6 @@ footer {
 }
 
 
-
-
-
-
-
 @media (max-width: 1024px) {
 
    .header__nav {
@@ -398,44 +388,214 @@ footer {
    }
 
    .header__nav {
-      height: 150px;
+      height: 210px;
+      justify-content: space-around;
+   }
+
+   .header__img {
+      text-align: center;
+   }
+
+   .a__studio,
+   .a__muttnik {
+      width: 650px;
+   }
+
+   .logo__i {
+      width: 580px;
+   }
+
+   .blog__text {
+      width: 200px;
+      font-size: 70px;
+      text-align: center;
+   }
+
+   .header__block {
+      justify-content: space-evenly;
+   }
+
+   .block__text {
+      display: none;
+   }
+
+   .a__play {
+      margin-top: -176px;
+      margin-left: -320px;
+   }
+
+   .cont-span {
+      padding: 33px 0;
+      text-align: center;
    }
 
    .main__our {
-      padding: 150px 0;
+      flex-direction: column;
+      align-items: center;
+      padding: 100px 0 30px 0;
+   }
+
+   .idea,
+   .who {
+      width: 600px;
+      height: 634px;
+      margin-bottom: 125px;
+   }
+
+   .idea {
+      margin-right: 290px;
+   }
+
+   .who {
+      margin-left: 310px;
+   }
+
+   .idea-text {
+      font-size: 100px;
+      margin-bottom: 40px;
+   }
+
+   .text {
+      width: 500px;
+      font-size: 27px;
+   }
+
+   .question:first-child {
+      margin-top: 50px;
+   }
+
+   .question {
+      font-size: 45px;
+      margin: 70px 0 15px;
+   }
+
+   .respond {
+      font-size: 33px;
+   }
+
+   .meet,
+   .mutt__block {
+      width: 1000px;
+      justify-content: center;
+      padding-left: 45px;
    }
 
    .main__meet {
-      padding-bottom: 200px;
+      padding-bottom: 130px;
    }
 
-   .js__photo {
-      margin-bottom: 200px;
+   .meet-text,
+   .mutt-text {
+      width: 600px;
+   }
+
+   .rotate-meet,
+   .rorate-mutt {
+      height: 27px;
+      font-size: 27px;
+   }
+
+   .js__photo,
+   .js__photo-two {
+      margin: 170px 0;
+      height: 600px;
+   }
+
+   .studio__block,
+   .studioten__block {
+      justify-content: center;
+
+   }
+
+   .block-one,
+   .block-three {
+      margin-right: 10px;
+   }
+
+   .block-two,
+   .block-four {
+      margin-left: 10px;
+      margin-top: 190px;
+   }
+
+   .studio-text,
+   .studioten-text {
+      font-size: 30px;
+      width: 580px;
+   }
+
+   .text-block {
+      font-size: 25px;
+      margin-top: 20px;
+      text-align: center;
+   }
+
+   .text-block-t {
+      font-size: 23px;
+      text-align: center;
+      margin-top: 10px;
    }
 
    .main__mutt {
       padding: 0;
-      margin-bottom: 220px;
+      margin-bottom: 130px;
+   }
+
+   .social__block {
+      height: 330px;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 110px;
+   }
+
+   .social-link {
+      font-size: 35px;
+   }
+
+   .social-text {
+      width: 680px;
+   }
+
+   .text-social {
+      font-size: 35px;
+      letter-spacing: 0;
    }
 
    .social-media {
-      padding-bottom: 150px;
-   }
-
-   .js__photo-two {
-      margin-bottom: 200px;
+      padding: 0;
+      height: 440px;
    }
 
    .view_blog {
-      padding-bottom: 200px;
+      padding-bottom: 90px;
+   }
+
+   .marquee-container {
+      height: 150px;
+   }
+
+   .img__studio {
+      height: 50px;
    }
 
    .footer__container {
-      height: 680px;
+      height: 550px;
    }
 
    .block__footer {
-      padding-top: 70px;
+      padding-top: 40px;
+   }
+
+   .footer-text {
+      font-size: 70px;
+   }
+
+   .a__email {
+      padding-top: 60px;
+   }
+
+   .end__footer {
+      padding-top: 90px;
    }
 
 }
@@ -451,17 +611,31 @@ footer {
 
    .header__img {
       text-align: center;
-      width: 580px;
+      width: 660px;
    }
 
    .header__blog {
-      width: 250px;
+      width: 200px;
       text-align: center;
    }
 
+   .a__play {
+      margin-top: -90px;
+      margin-left: -370px;
+   }
+
    .main__our {
-      justify-content: space-evenly;
-      padding: 100px 0 220px 0;
+      padding-top: 0;
+   }
+
+   .idea,
+   .who {
+      width: 670px;
+   }
+
+   .text {
+      width: 660px;
+      font-size: 31px;
    }
 
    .studio__text {
@@ -472,12 +646,103 @@ footer {
       font-size: 70px;
    }
 
+   .js__photo,
+   .js__photo-two {
+      margin: 130px 0;
+   }
+
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 460px) {
 
-   .blog__text {
-      font-size: 50px;
+   .container__header {
+      background-image: url(../image/bg.svg);
    }
+
+   .header__nav {
+      padding: 60px 0 0 0;
+      flex-direction: column;
+      height: 300px;
+   }
+
+   .header__img {
+      margin-right: 240px;
+   }
+
+   .a__play {
+      margin-top: -150px;
+      margin-left: -225px;
+
+   }
+
+   .header__blog {
+      margin-left: 690px;
+      margin-top: -126px;
+   }
+
+   .cont-span {
+      padding: 50px 0 70px 0;
+   }
+
+   .main__our {
+      padding-top: 70px;
+   }
+
+   .idea,
+   .who {
+      margin: 0;
+   }
+
+   .idea {
+      margin-bottom: 140px;
+
+   }
+
+   .idea-text {
+      text-align: center;
+   }
+
+   .main__meet {
+      padding: 60px 0 80px 0;
+   }
+
+   .js__photo,
+   .js__photo-two {
+      height: 500px;
+   }
+
+   .view_blog {
+      padding-bottom: 40px;
+   }
+
+   .view-text {
+      font-size: 70px;
+   }
+
+   .marquee-container {
+      height: 100px;
+   }
+
+   .img__studio {
+      height: 40px;
+   }
+
+   .footer__container {
+      height: 370px;
+   }
+
+   .footer-text {
+      padding-left: 50px;
+      font-size: 55px;
+   }
+
+   .a__email {
+      padding-top: 40px;
+      padding-left: 55px;
+   }
+
+   .end__footer {
+      padding-left: 110px;
+      padding-top: 40px;   }
 }
