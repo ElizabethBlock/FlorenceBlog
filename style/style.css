@@ -4,6 +4,7 @@
 
 a {
    text-decoration: none;
+   color: #ea4809;
 }
 
 li {
@@ -35,6 +36,7 @@ html {
    display: flex;
    justify-content: space-between;
    align-items: center;
+   height: 108px;
 }
 
 .header__img {
@@ -46,16 +48,26 @@ html {
    padding-bottom: 20px;
 }
 
+.img__blog {
+   transition: .5s;
+   background-size: contain;
+   height: 80px;
+}
+
 .blog__text {
    font-size: 34px;
    color: #ea4809;
    font-weight: 300;
    text-transform: uppercase;
+   text-align: center;
+   height: 70px;
+   margin: 0;
 }
 
 .blog__text:hover {
-   color: #4043d7;
+   color: #7d83d9;
    transition: 0.7s;
+   margin-top: -20px;
 }
 
 .header__block {
@@ -99,6 +111,74 @@ html {
    padding-left: 186px;
 }
 
+.cont__button {
+   display: flex;
+   height: 200px;
+   align-items: center;
+   justify-content: center;
+}
+
+.button {
+   display: inline-block;
+   width: 200px;
+}
+
+.button-link {
+   position: relative;
+   display: inline-block;
+   padding: 6px 0;
+   width: 200px;
+   border: 2px solid #ea4809;
+   color: #ea4809;
+   font-size: 20px;
+   text-align: center;
+   transition: .3s;
+}
+
+.button-link__text {
+   position: relative;
+   z-index: 2;
+   transition: .3s;
+}
+
+.button-link:hover {
+   border: 2px solid #fff;
+   color: #fff;
+}
+
+.button-link:hover::before {
+   width: 100%;
+   right: 0;
+}
+
+.button-link::before {
+   top: 0;
+   left: 0;
+}
+
+.button-link:hover::after {
+   width: 100%;
+   right: 0;
+}
+
+.button-link::after {
+   bottom: 0;
+   right: 0;
+}
+
+.button-link::before,
+.button-link::after {
+   content: "";
+   display: block;
+   position: absolute;
+   background: #ea4809;
+   height: 50%;
+   width: 0;
+   transition: 0.6s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+   z-index: 1;
+}
+
+
 .other-text {
    font-size: 37px;
    font-weight: 300;
@@ -112,7 +192,7 @@ html {
    display: flex;
    justify-content: space-around;
    margin: 0 auto;
-   padding-top: 340px;
+   padding-top: 210px;
    padding-bottom: 280px;
 }
 
@@ -157,37 +237,69 @@ html {
    margin: 10px 0;
 }
 
-.main__meet {
+.main__meet,
+.main__mutt {
+   width: 900px;
    height: 269px;
    margin: 0 auto;
    padding-bottom: 250px;
 }
 
-.meet {
-   width: 775px;
+.meet__block,
+.mutt__block {
+   width: 800px;
    display: flex;
+   justify-content: space-between;
 }
 
 .rotate-meet,
-.rorate-mutt {
+.rotate-mutt {
+   display: flex;
+   align-items: center;
+   justify-content: center;
    transform: rotate(270deg);
    font-size: 14px;
    top: 130px;
    position: relative;
-   height: 18px;
+   height: 70px;
+   width: 200px;
+   margin-right: 160px;
 }
 
-.rorate-mutt {
+.rotate-meet {
+   transform: rotate(270deg);
+
+}
+
+.rotate-mutt {
    top: 202px;
+}
+
+.rotate-meet:hover,
+.rotate-mutt:hover {
+   font-size: 16px;
+   margin-left: 50px;
+   transition: 1s;
+   transform: rotate(360deg);
+   color: #7d83d9;
+}
+
+.a-rotate__meet:hover,
+.a-rotate__mutt:hover {
+   color: #7d83d9;
 }
 
 .meet-text,
 .mutt-text {
-   font-size: 114px;
+   width: 530px;
+   font-size: 110px;
    font-weight: 500;
    margin: 0;
-   padding-left: 100px;
+   /* padding-left: 100px; */
 }
+
+
+
 
 .studio__block,
 .studioten__block {
@@ -239,12 +351,21 @@ html {
 }
 
 .link-item {
-   padding-bottom: 21px;
+   padding-bottom: 25px;
+   width: 180px;
+   transition: .7s;
 }
 
 .social-link {
    color: #ea4809;
    font-size: 22px;
+}
+
+.social-link:hover {
+   text-decoration: underline;
+   color: #7d83d9;
+   transition: 0.5s;
+   margin-left: 30px;
 }
 
 .social-text {
@@ -270,10 +391,6 @@ html {
 .main__mutt {
    margin: 0 auto;
    padding-bottom: 250px;
-}
-
-.mutt__block {
-   display: flex;
 }
 
 .mutt-text {
@@ -368,7 +485,7 @@ html {
    }
 
    .main__our {
-      padding-top: 200px;
+      padding-top: 150px;
    }
 
    .main__meet {
@@ -453,6 +570,7 @@ html {
    .idea-text {
       font-size: 100px;
       margin-bottom: 40px;
+      padding-top: 50px;
    }
 
    .text {
@@ -655,7 +773,6 @@ html {
 
 
 @media (max-width: 460px) {
-   
    .header__nav {
       flex-direction: column;
       height: 400px;
@@ -709,6 +826,7 @@ html {
 
    .idea-text {
       text-align: center;
+      padding-top: 50px;
    }
 
    .question,
