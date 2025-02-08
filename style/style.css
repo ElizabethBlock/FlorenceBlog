@@ -257,7 +257,7 @@ html {
    font-size: 14px;
    top: 130px;
    position: relative;
-   height: 70px;
+   height: 100px;
    width: 200px;
    margin-right: 160px;
 }
@@ -291,11 +291,7 @@ html {
    font-size: 110px;
    font-weight: 500;
    margin: 0;
-   /* padding-left: 100px; */
 }
-
-
-
 
 .studio__block,
 .studioten__block {
@@ -480,7 +476,6 @@ html {
    .header__nav {
       padding: 30px 50px;
    }
-
 
    .studio__text {
       width: 600px;
