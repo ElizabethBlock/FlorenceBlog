@@ -80,6 +80,35 @@ html {
    padding-left: 26px;
 }
 
+@keyframes spin {
+   from {transform:rotate(0deg);}
+   to {transform:rotate(360deg);}
+}
+
+.a__play{
+ animation: spin 5s linear 0s infinite;
+}
+
+.a__play:hover {
+   margin-left: -50px;
+   transition: 1s;
+}
+
+.play {
+   margin-left: -215px;
+   z-index: 4;
+}
+
+.img-play {
+   height: 190px;
+}
+
+.img-play:hover {
+   height: 160px;
+   padding-right: 30px;
+   transition: 1s;
+}
+
 .rotate-text {
    transform: rotate(270deg);
    font-size: 13px;
@@ -101,6 +130,11 @@ html {
    display: inline-block;
    white-space: nowrap;
    font-weight: 100;
+}
+
+.rotate-text:hover, .rotate-text-last:hover {
+   color: #7d83d9;
+   transition: .5s;
 }
 
 .cont-span {
@@ -477,6 +511,14 @@ html {
       padding: 30px 50px;
    }
 
+   .a__play {
+      margin-left: 40px;
+   }
+
+   .img-play {
+      margin-right: 120px;
+   }
+
    .studio__text {
       width: 600px;
       font-size: 100px;
@@ -511,6 +553,16 @@ html {
       text-align: center;
    }
 
+   .a__play {
+      margin-top: -160px;
+      margin-left: 290px;
+   }
+
+   .img-play {
+      margin-top: -160px;
+      margin-right: 250px;
+   }
+
    .a__studio,
    .a__muttnik {
       width: 650px;
@@ -534,10 +586,6 @@ html {
       display: none;
    }
 
-   .a__play {
-      margin-top: -176px;
-      margin-left: -320px;
-   }
 
    .cont-span {
       padding: 33px 0;
@@ -742,6 +790,15 @@ html {
       margin-left: -370px;
    }
 
+   .play {
+      margin-left: -580px;
+      margin-top: 80px;
+   }
+
+   .img-play {
+      margin-right: -165px;
+  }
+
    .main__our {
       padding-top: 0;
    }
@@ -782,10 +839,22 @@ html {
       margin-right: 700px;
    }
 
-   .a__play {
-      margin-top: -560px;
-      margin-left: 0;
+   .blog__text {
+      margin-left: 200px;
    }
+
+   .header__block {
+      flex-direction: column-reverse;
+   }
+
+   .a__play {
+      margin-left: -430px;
+      margin-top: -240px;
+   }
+
+   .img-play {
+      margin-right: -180px;
+  }
 
    .studio__text {
       font-size: 130px;
@@ -822,11 +891,12 @@ html {
 
    .who {
       text-align: center;
+      margin-top: 100px;
    }
 
    .idea-text {
       text-align: center;
-      padding-top: 50px;
+      padding-top: 190px;
    }
 
    .question,
@@ -850,7 +920,7 @@ html {
    }
 
    .main__meet {
-      padding: 60px 0 0 0;
+      padding: 110px 0 0 0;
    }
 
    .meet,
@@ -909,10 +979,11 @@ html {
 
    .studio-text {
       margin: 275px 30px 0 0;
+      width: 340px;
    }
 
    .social__block {
-      margin-top: 130px;
+      margin-top: 170px;
    }
 
    .social-media {
