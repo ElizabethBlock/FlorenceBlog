@@ -86,7 +86,7 @@ html {
 }
 
 .a__play{
- animation: spin 5s linear 0s infinite;
+ animation: spin 10s linear 0s infinite;
 }
 
 .a__play:hover {
